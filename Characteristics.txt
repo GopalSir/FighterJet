@@ -1,0 +1,68 @@
+General characteristics
+
+Crew: 2
+Length: 21.935 m (73 ft)
+Wingspan: 14.7 m (48 ft 3 in)
+Height: 6.36 m (20 ft 10 in)
+Wing area: 62 m² (667 ft²)
+Empty weight: 18,400 kg[114] (40,565 lb)
+Loaded weight: 26,090 kg (57,520 lb) (typical mission weight)[111]
+Max. takeoff weight: 38,800 kg (85,600 lb)
+Powerplant: 2 × Lyulka AL-31FP turbofans
+Performance
+
+Maximum speed: 
+At high altitude: Mach 2 (2,120 km/h; 1,320 mi)[111]
+At low altitude: Mach 1.09 (1,350 km/h, 839 mph)
+Range: 
+At high altitude: 3,000 km (1,860 mi; 1,620 nmi)
+At low altitude: 1,270 km (790 mi; 690 mi)
+Combat radius: 1,300 km[115] (808 mi)
+Ferry range: 8,000 km (4,970 mi; 4,320 nmi) with two in-flight refuellings[112]
+Service ceiling: 17,300 m (56,800 ft)
+Rate of climb: >300 m/s (>45,275 ft/min)
+Wing loading: 401 kg/m² (82.3 lb/ft²)
+Thrust/weight: 0.96
+Maximum g-load: +9 g
+Armament
+Guns: 1 × 30 mm Gryazev-Shipunov GSh-30-1 autocannon
+Hardpoints: 12 hardpoints (2 × wing-tip AAM launch rails, 6 × pylons under-wing, 2 × pylon under-engine nacelles, and 2 × pylons in tandem in the "arch" between the engines. It can be increased to 14 using multiple ejector racks.) with a capacity of up to 8,130 kg (17,920 lb) and provisions to carry combinations of:
+Rockets: 
+4 × S-8
+4 × S-13
+Missiles: 
+Air-to-air missiles:
+10 × R-77
+10 × Astra
+6 × R-27ER/ET
+2 × R-27R/T
+6 × R-73
+3 × K-100
+Air-to-surface missiles:
+3 × Kh-59ME
+6 × Kh-29T/L
+Anti-ship missiles:
+3 × Kh-59MK
+4 × Kh-35
+6 × Kh-31A
+Anti-radiation missiles:
+DRDO Anti-Radiation Missile[116]
+6 × Kh-31P
+Bombs: 
+8 × KAB-500L laser-guided bombs
+3 × KAB-1500L laser-guided bombs
+8 × FAB-500T bombs
+28 × OFAB-250-270 bombs
+32 × OFAB-100-120 bombs
+8 × RBK-500 cluster bombs
+Other
+
+Litening targeting pod[117]
+El/M-2060P airborne search and rescue reconnaissance pod[118]
+Chaffs / flares
+Buddy-buddy refuelling pod
+Avionics
+Bars passive electronically scanned array radar[53]
+EL/M-8222 jammer[119]
+DRDO Tarang MK.II radar warning receiver[120]
+OLS-30 laser-optical infra-red search and track radar[citation needed]
