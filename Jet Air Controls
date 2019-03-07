@@ -1,0 +1,79 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ControllerScript : MonoBehaviour {
+    public int MaxThrust = 83000;
+    public int thrust;
+    Rigidbody rb;
+    Vector3 lift;
+    float angle;
+    public int fv;
+    // Use this for initialization
+    void Start () {
+        thrust = 1000;
+         rb = GetComponent<Rigidbody>();
+        rb.angularDrag = 0.8f;
+    }
+	
+	// Update is called once per frame
+	void FixedUpdate () {
+        lift = Vector3.Project(rb.velocity, transform.forward);
+        
+        rb.AddForce(transform.up * lift.magnitude * 15); // Applying Lift Force
+        angle = Vector3.Angle(transform.up, rb.velocity);
+        angle = angle * 2 * 22 / (7*360);
+        rb.AddForce((-1)*rb.velocity * rb.velocity.magnitude * rb.velocity.magnitude*Mathf.Sin(angle)/700);
+        fv =(int) rb.velocity.magnitude;
+        if(Input.GetKey(KeyCode.F))
+        {
+            rb.velocity = new Vector3(0, 0, 0);
+            
+        }
+        if(Input.GetKey(KeyCode.Space))
+        {
+
+
+            thrust+=10;
+        }
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            
+            
+            rb.AddForce(transform.forward*thrust);
+        }
+            
+        if (Input.GetKey(KeyCode.S))
+        {
+            thrust -= 100;
+            rb.AddForce(transform.forward * thrust*(-1));
+        }
+        if(Input.GetKey(KeyCode.A))
+        {
+            rb.AddRelativeTorque(0, -3000, 0);
+        }
+
+        if(Input.GetKey(KeyCode.D))
+        {
+            rb.AddRelativeTorque(0, 3000, 0);
+        }
+        if(Input.GetKey(KeyCode.RightArrow))
+        {
+            rb.AddRelativeTorque(0, 0, -800);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            rb.AddRelativeTorque(0, 0, 800);
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            rb.AddRelativeTorque(800, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            rb.AddRelativeTorque(-800, 0, 0);
+        }
+
+    }
+}
