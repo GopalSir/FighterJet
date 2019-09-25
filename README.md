@@ -4,7 +4,7 @@
 
 The behaviour of the plane is intended to be as realistic as possible . Rather than copying the behaviour , we are manipulating the forces based on real time aerodyanamic forces on the Plane
 
-(https://raw.githubusercontent.com/GopalSir/FighterJet/blob/master/Screenshot%20(40).png)
+(https://github.com/GopalSir/FighterJet/blob/master/Screenshot%20(40).png)
 
 
-(https://raw.githubusercontent.com/GopalSir/FighterJet/blob/master/Screenshot%20(40).png)
+(https://github.com/GopalSir/FighterJet/blob/master/Screenshot%20(40).png)
